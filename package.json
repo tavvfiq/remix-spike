@@ -20,7 +20,7 @@
     "react-dom": "^18.2.0",
     "react-insta-stories": "^2.7.0",
     "remix-utils": "^7.7.0",
-    "use-react-screenshot-fix": "^4.0.3"
+    "use-react-screenshot-fix": "^4.0.2"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.13.1",

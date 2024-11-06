@@ -17,12 +17,7 @@ const stories: Story[] = [
         a.click();
       };
 
-      const downloadScreenshot = () => takeScreenshot(ref.current, {
-        allowTaint: false,
-        useCORS: false,
-        scrollX: 0,
-        scrollY: 0,
-      }).then(download);
+      const downloadScreenshot = () => takeScreenshot(ref.current).then(download);
 
       return <div ref={ref} style={{ width: "100%", height: "100%" }}>
         <img src={story.url} width="100%" height="100%" />
